@@ -1,0 +1,60 @@
+title: LPFP Le Petit Fab-Lab de Paris
+description: Ateliers aux Petit Fab-Lab de Paris.
+author: Atelier LPFP
+logo: LPFP_square_logo.png
+github: https://github.com/LPFP
+about: Le petit Fab-Lab de Paris
+mail: ateliers@lepetitfablabdeparis.fr
+
+token:
+  mapbox: pk.eyJ1Ijoicm9ieXJlbXp5IiwiYSI6ImNpc2RtemNqazAwMTkyeG82MHBlemx6aTMifQ.wSeiG1ERx30Dwc27idsDfQ
+  mapillary: enpzOU5oNGZIQW1NLTI0T2JrdGFmQTo0NDJjMTkzMzEwMDQxNGE4
+  pgp:
+
+baseurl: /
+url: "https://LPFP.github.io"
+
+disqus_shortname: atelierslpfp
+
+staticman:
+  allowedFields  : ['name', 'email', 'message']
+  branch         : "master"
+  commitMessage  : "New comment."
+  filename       : comment-{@timestamp}
+  generatedFields:
+    date:
+      type       : "date"
+      options:
+        format   : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+  format         : "yml"
+  moderation     : false
+  path           : "_data/comments/{options.slug}"
+  requiredFields : ['name', 'message']
+  transforms:
+    email        : "md5"
+
+share:
+  twitter_username: lpfablabparis
+  fb_appid: LePetitFablabDeParis
+  mailchimp:
+
+gist:
+  noscript: false
+
+enableTags: true
+tagarray: []
+
+paginate: 12
+per_page: 4
+paginate_path: "/page:num/"
+permalink: /:year/:title/
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: true
+
+gems: ['jekyll-paginate', 'jemoji', 'jekyll-gist']

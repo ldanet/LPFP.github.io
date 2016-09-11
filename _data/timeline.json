@@ -1,0 +1,86 @@
+[
+  {
+    "titre": "Structure du fablab",
+    "date": "Mai 2013",
+    "fyi": "Hiver 2012 – Printemps 2013, notre premier stagiaire, Laurent Pavot, organise la mise en place des portes ouvertes, de la structuration de l’atelier, de la mise en place des projets et de la recherche des personnes qui seraient intéressées pour porter le LPFP.",
+    "icon": "fa-smile-o",
+    "nature": "organiser"
+  },
+  {
+    "titre": "1er Oyé-Oyé",
+    "date": "Mars 2014",
+    "fyi": "Nous organisons notre réunion à projet, le oyé-oyé, pour accueillir de nouveaux projets.",
+    "icon": "fa-hand-peace-o ",
+    "nature": "organiser"
+  },
+  {
+    "titre": "1er hackathon",
+    "date": "Juin 2014",
+    "fyi": "Nous organisons notre premier hackathon , le FabJam avec plus de 10 fablabs en visio-conférence.",
+    "icon": "fa-check",
+    "nature": "organiser"
+  },
+  {
+    "titre": "1ère Assemblée Général",
+    "date": "Oct 2014",
+    "fyi": "Nous organisons notre première AG",
+    "icon": "fa-legal",
+    "nature": "organiser"
+  },
+  {
+    "titre": "évènement inter-membres",
+    "date": "Jan 2015",
+    "fyi": "Nous organisons notre premier dîner inter-membres.",
+    "icon": "fa-check",
+    "nature": "organiser"
+  },
+  {
+    "titre": "festival Artilect",
+    "date": "Mai 2015",
+    "fyi": "Nous participons au festival Artilect à Toulouse avec l’atelier DIY pour créer  des produits cosmétiques DIY.",
+    "icon": "fa-globe",
+    "nature": "participer"
+  },
+  {
+    "titre": "Paris pas cher",
+    "date": "Août 2015",
+    "fyi": " Obtention du label fablab le moins cher de Paris par Paris pas cher 2016.",
+    "icon": "fa-check",
+    "nature": "wow"
+  },
+  {
+    "titre": "festival VAA",
+    "date": "Sept 2015",
+    "fyi": "Participation au festival village des Alternatives Alternatiba.",
+    "icon": "fa-globe",
+    "nature": "participer"
+  },
+  {
+    "titre": "Orange et Nod-A",
+    "date": "Fév 2016",
+    "fyi": "Nous gagnons notre premier appel de fonds avec Orange et nous tenons notre deuxième AG. Nod-A cherchant à reprendre tout son espace – même celui qu’elle nous avait alloué – nous cherchons notre nouvelle maison.",
+    "icon": "fa-legal",
+    "nature": "wow"
+  },
+	{
+    "titre": "Open Bidouille Camp Paris",
+    "date": "Mars 2016",
+    "fyi": "Sans local mais toujours là aux fêtes de l'OBC Paris.",
+    "icon": "fa-globe",
+    "nature": "participer"
+  },
+  {
+    "titre": "WOMA",
+    "date": "Juin 2016",
+    "fyi": "de Mars à Juin la fabrique de quartier WOMA nous héberge durant la transition vers un nouveau lieu.",
+    "icon": "fa-compass",
+    "nature": "wow"
+  },
+  {
+    "titre": "AGECA",
+    "date": "Mai 2016",
+    "fyi": "Nous entamons une nouvelle vie dans les locaux de L’AGECA.",
+    "icon": "fa-home",
+    "nature": "participer"
+  }
+]

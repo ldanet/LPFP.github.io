@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  {% include meta.html %}
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml">
+  {% include css.html %}
+  {% if page.mapbox %}
+  <!-- Loading Mapbox -->
+  <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.23.0/mapbox-gl.js'></script>
+  <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.23.0/mapbox-gl.css' rel='stylesheet' />
+  {% endif %}
+
+  {% if page.mapillary %}
+  <!-- Loading Mapillary -->
+  <script src='https://npmcdn.com/mapillary-js@1.6.0/dist/mapillary-js.min.js'></script>
+  <link href='https://npmcdn.com/mapillary-js@1.6.0/dist/mapillary-js.min.css' rel='stylesheet' />
+  {% endif %}
+</head>
+
+<body class="home overflow-hidden">
+  {% include header.html %}
+  {{ content }}
+  {% include js.html %}
+  {% include footer.html %}
+  {% include analytics.html %}
+</body>
+</html>

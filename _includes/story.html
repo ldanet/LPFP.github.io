@@ -1,0 +1,27 @@
+<section id="cd-timeline" class="cd-container">
+  {% for i in site.data.timeline %}
+  <div class="cd-timeline-block">
+    {% if i.nature %}
+    <div class="cd-timeline-img cd-{{ i.nature }}">
+      {% endif %}
+      {% if i.icon %}
+      <i class="fa {{ i.icon }} fa-3x" aria-hidden="true"></i>
+      {% else %}
+      <!-- blank -->
+      {% endif %}
+    </div>
+
+    <div class="cd-timeline-content">
+      {% if i.titre %}
+      <b>{{ i.titre }}</b>
+      {% endif %}
+      {% if i.fyi %}
+      <p>{{ i.fyi }}</p>
+      {% endif %}
+      {% if i.date %}
+      <span class="cd-date">{{ i.date }}</span>
+      {% endif %}
+    </div>
+  </div>
+  {% endfor %}
+</section>

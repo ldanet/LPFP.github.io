@@ -1,0 +1,22 @@
+<div id="mapbx" class="leafmap"></div>
+
+<script>
+{% if page.mapbox %}
+mapboxgl.accessToken = '{{ site.token.mapbox }}';
+var mapbx = new mapboxgl.Map({
+  container: 'mapbx',
+  {% if include.mb_tile %}
+  style: '{{ include.mb_tile }}',
+  {% else %}
+  style: 'mapbox://styles/mapbox/outdoors-v9',
+  {% endif %}
+  center: [{{ page.mlng }}, {{ page.mlat }}],
+  zoom: {{ page.zoom }},
+  scrollZoom: false,
+  attributionControl: false
+  });
+
+var nav = new mapboxgl.Navigation({position: 'bottom-right'});
+mapbx.addControl(nav);
+{% endif %}
+</script>

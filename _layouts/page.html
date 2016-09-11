@@ -1,0 +1,18 @@
+---
+layout: default
+---
+<div class="well">
+  {% if page.subtitle %}
+  <h4 class="home-subtitle">{{ page.subtitle }}</h4>
+  {% endif %}
+  {% if page.img %}
+  <div><center>
+    <img src="{{ site.baseurl }}assets/{{ page.img }}" alt="header" width="100%">
+  </center><hr></div>
+  {% endif %}
+  <div>
+    {{ content }}
+  </div>
+  {% include mailing.html %}
+  {% include disqus.html %}
+</div>

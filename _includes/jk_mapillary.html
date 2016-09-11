@@ -1,0 +1,25 @@
+{% if page.mapillary %}
+<div id="mly" class="leafmap"></div>
+{% endif %}
+
+{% if page.mapillary %}
+<script>
+var mly = new Mapillary.Viewer(
+  'mly',
+  '{{ site.token.mapillary }}',
+  {% if include.mly_pkey %}
+  '{{ include.mly_pkey }}',
+  {% else %}
+  '{{ page.mly_pkey }}',
+  {% endif %}
+  {
+    // see options: http://mapillary.github.io/mapillary-js/interfaces/ivieweroptions.html
+    "cover": true,
+    "renderMode": Mapillary.RenderMode.Fill,
+    "basePanoramaSize": Mapillary.ImageSize.Size2048,
+    "baseImageSize": Mapillary.ImageSize.Size320,
+    "maxImageSize": Mapillary.ImageSize.Size2048,
+  }
+);
+</script>
+{% endif %}

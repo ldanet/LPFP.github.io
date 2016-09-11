@@ -1,0 +1,12 @@
+#fplppics .item img{
+  display: block;
+  padding-top: 25px;
+  padding-bottom: 25px;
+
+  margin-right: 10px;
+  margin-left: auto;
+
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+}

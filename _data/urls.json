@@ -1,0 +1,22 @@
+[
+  {
+    "text": "Fabrique",
+    "url": "./fablab/",
+    "icon": "fa-rocket"
+  },
+  {
+    "text": "Ateliers",
+    "url": "./projects/",
+    "icon": "fa-users"
+  },
+  {
+    "text": "Matériel",
+    "url": "./hardware/",
+    "icon": "fa-plug"
+  },
+  {
+    "text": "Blog",
+    "url": "./blog",
+    "icon": "fa-comments"
+  }
+]

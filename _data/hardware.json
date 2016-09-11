@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Raspberry",
+    "image": "raspberry.png",
+    "desc": "Rajouter des modules, hacker tester... on adore!",
+    "doc":,
+    "url": "https://fr.wikipedia.org/wiki/Raspberry_Pi",
+    "model": ["π2","π3"]
+  },
+  {
+    "name": "Arduino",
+    "image": "arduino.png",
+    "desc": "C'est notre star pour beaucoup de projets!",
+    "doc": ,
+    "url": "https://fr.wikipedia.org/wiki/Arduino",
+    "model": ["Uno","Leonardo", "Mega", "Nano"]
+  },
+  {
+    "name": "Imprimante 3D",
+    "image": "3dprinter.png",
+    "desc": "model accessibile ou à finir!",
+    "doc": "#",
+    "url": "https://fr.wikipedia.org/wiki/Impression_3D",
+    "model": ["custom Prusa_i3", "custom Prusa_i3 @sakada", "Zortrax M200"]
+  },
+  {
+    "name": "Découpeuse vinyle",
+    "image": "printer.png",
+    "desc": "Super pour des projets très simple mais classe!",
+    "url": "https://wiki.makilab.org/index.php/descoupeVinyle",
+    "doc": "#",
+    "model": ["model"]
+  }
+]

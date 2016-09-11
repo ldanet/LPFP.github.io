@@ -1,0 +1,71 @@
+---
+layout: default
+---
+<article class="post">
+
+  <div class="post-content">
+    {{ content }}
+
+    <div class="row">
+      {% for i in site.data.hardware %}
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <div class="text-center">
+          <!-- image -->
+          <div class="">
+            <center>
+              {% if i.image %}
+              <img src="{{ site.baseurl }}static/matos/{{ i.image }}"
+              class="img-responsive img-small" alt="{{ i.name }}">
+              {% else %}
+              <img src="{{ site.baseurl }}static/matos/hardware.png"
+              class="img-responsive img-small" alt="{{ i.name }}">
+              {% endif %}
+            </center>
+            <!-- description -->
+            {% if i.desc %}
+            <p><span>{{ i.desc }}</span></p>
+            {% else %}
+            <p><span><i>Pas de déscription</i></span></p>
+            {% endif %}
+            <!-- Docu -->
+            {% if i.doc %}
+            <p><i class="fa fa-book"></i> Doc:
+              <a href="{{ i.doc }}" target="_blank">{{ i.name }}</a>
+            </p>
+            {% else %}
+            <p><i>Pas de Documentation</i></p>
+            {% endif %}
+            <!-- Wiki -->
+            {% if i.url %}
+            <span><i class="fa fa-wikipedia-w"></i>iki:
+              <a href="{{ i.url }}" target="_blank">{{ i.name }}</a>
+            </span>
+            {% endif %}
+            <!-- model -->
+            <div class="tag-holder">
+              {% if i.model %}
+              {% for j in i.model %}
+              <span class="label tags tag-filter" data-tag="{{ j | downcase }}">{{ j }}</span>
+              {% endfor %}
+              {% endif %}
+            </div>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+      <div class="col-xs-12">
+        <br><hr>
+        <center>
+          <p>
+            <i class="fa fa-quote-left"></i>
+            Certaines machines/outils sont mis à disposition par des tiers, merci à eux!
+            <i class="fa fa-quote-right"></i>
+            :blue_heart:
+            <a href="http://www.ageca.org/" target="_blank">AGECA</a> - <a href="http://potaufab.fr/" target="_blank">Pot-au-Fab</a>
+          </p>
+        </center>
+      </div>
+    </div>
+  </div>
+
+</article>
