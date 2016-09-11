@@ -54,9 +54,6 @@ Il existe sur internet beaucoup de solutions gratuites pour organiser des activi
 * faire des slides rapides avec [Bunkr](https://bunkrapp.com/)
 * un document partagable [Framapad](https://framapad.org/)
 
-### À voir
-Vous pouvez aussi voir ce qui a déjà été fait et vous faire une idée. [les ateliers et leurs répertoires](/fabateliers/projects).
-
 ### Voilà! Ya Plus qu'a!
 Vous pouvez nous envoyer un mail avec un lien vers votre Framapad ou autre décrivant votre projet d'atelier. Nous pouvons aussi en re-discuter dans nos locaux! Merci et à bientôt!
 

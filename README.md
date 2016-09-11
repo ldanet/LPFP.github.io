@@ -1,7 +1,3 @@
-# Utilisation de la platforme
-
-* Les Ateliers peuvent être remplie ou modifier dans la section `_data/projects`
-
 ## Jekyll [petit Fab-Lab de Paris](http://lepetitfablabdeparis.fr/)
 inforamtion sur [Jekyll](http://jekyllrb.com/docs/usage/).
 information sur [l'installation général](http://jekyllrb.com/docs/installation/)
@@ -66,11 +62,18 @@ dossier pour le fichier .JS `_includes/js.html`.
 Custom Fonts
 dossier pour les fichiers .CSS `static/fonts/`.
 
-#### Enregister un projet
-voir dans le repertoire `_data/projects.json` et créer une nouvelle entré.
+#### Enregister / modifier un atelier/materiel/historique
+voir dans le repertoire > fichier.json ci-dessous pour créer une nouvelle entré.
+
+* Les Ateliers sont dans `_data/projects`
+* Les évenements historique sont dans `_data/timeline`
+* La liste hardware se trouve dans `_data/hardware`
 
 #### Rédiger un poste.
-Créée un nouveau fichier dans le repertoire `_posts` avec le format suivant: `AAAA-MM-JJ-titre-comme-cela.md`.
+Créée un nouveau fichier dans le repertoire `_posts` avec le format suivant:
+
+> `AAAA-MM-JJ-titre-comme-cela.md`.
+
 les premières lignes sont du `Front Matter en YAML` comme par exemple:
 
 ```yaml
@@ -91,7 +94,6 @@ img: pics.png
 ```
 
 Le reste du post se rédige avec une synatxe en [Markdown](https://daringfireball.net/projects/markdown/basics).
-
 
 #### Apporter une correction au site.
 Pour toute correction a faire qui nous auraient échappés, Github permet de faire des [issues](https://github.com/LPFP/LPFP.github.io/issues) ou de pouvoir inclure vos modifications avec un [merge](https://github.com/LPFP/LPFP.github.io/pulls), si vous avez préalablement "forké" le projet, éviter s'il vous plait l'envoie de mail pour nous signaler certaines erreurs, passer directement par Github ou par "Slack".

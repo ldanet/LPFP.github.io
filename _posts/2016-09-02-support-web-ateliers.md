@@ -17,5 +17,5 @@ Le site à été fait avec Jekyll avec une template remodifier de [ashutosh2k12]
 La mailing liste [MailChimp](http://mailchimp.com/) (à faire) et serait relative aux ateliers donc public.
 
 ### Maintenance du site.
-Voir le [README.md](https://github.com/RobyRemzy/fabateliers/blob/master/README.md)
+Voir le [README.md](https://github.com/LPFP/LPFP.github.io/blob/master/README.md)
 Plus d'info sur <i class="fa fa-slack"></i>Ateliers
