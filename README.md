@@ -23,9 +23,12 @@ sudo apt-get install ruby-full rubygems
 ```ruby
 gem update --system
 gem install bundler
-gem install jekyll
+```
 
-#Lancer jekyll
+```shell
+#Lancer jekyll et la version du site
+cd LPFP.github.io.git
+bundle install
 bundle exec jekyll serve
 ```
 
