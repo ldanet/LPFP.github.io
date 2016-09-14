@@ -2,6 +2,7 @@
 layout: post
 title:  "Création d'un support web pour les ateliers"
 date:   2016-09-01 13:50:39
+poster: remi
 categories: atelier
 img: slider_LPFP_3.jpg
 ---

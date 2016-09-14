@@ -1,0 +1,51 @@
+{% if page.poster %}
+{% assign auth = page.poster %}
+<hr>
+<div class="panel panel-default">
+  <div class="panel-body">
+    <div class="col-sm-12">
+      <div class="col-sm-3 avatar2">
+        <img src="{{ site.baseurl }}static/img/{{ auth }}.jpg" alt="{{ auth }}">
+      </div>
+      <div class="col-sm-9">
+        <center>
+          <i>{{ site.[auth].quote }}</i><br>
+          {{ auth }} @ {{ site.[auth].lpfp }}<br>
+          {% if site.[auth].twitter %}
+          <a href="https://twitter.com/{{ site.[auth].twitter }}" target="_blank">
+            <i class="fa fa-twitter"></i>
+          </a>
+          {% endif %}
+          {% if site.[auth].github %}
+          <a href="https://github.com/{{ site.[auth].github }}" target="_blank">
+            <i class="fa fa-github"></i>
+          </a>
+          {% endif %}
+          {% if site.[auth].facebook %}
+          <a href="https://facebook.com/{{ site.[auth].facebook }}" target="_blank">
+            <i class="fa fa-facebook"></i>
+          </a>
+          {% endif %}
+          {% if site.[auth].pgp %}
+          <span class="finger">
+            <a onclick="document.getElementById('pgp')
+            .innerHTML = 'public PGP key 64bit: {{ site.[auth].pgp }}';">
+              <i class="fa fa-key"></i>
+            </a>
+          </span>
+          <span id="pgp"></span>
+          {% endif %}
+          <br>
+          {% if page.pok %}
+          <b>Ce post est soumis sous recommandation de notre ami(e)
+            <a href="{{ page.poklink }}" target="_blank">
+              {{ page.pok }}
+            </a>
+          </b>
+          {% endif %}
+        </center>
+      </div>
+    </div>
+  </div>
+</div>
+{% endif %}

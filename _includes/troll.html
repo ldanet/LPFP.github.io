@@ -1,0 +1,15 @@
+<div class="panel-body">
+  <div class="col-sm-12">
+    <div class="col-sm-2 com_avatar">
+      <img class="" src="https://www.gravatar.com/avatar/{{ include.email }}?d=mm&s=50" srcset="https://www.gravatar.com/avatar/{{ include.email }}?d=mm&s=100 2x" alt="{{ include.name | escape }}" height="50" width="50">
+    </div>
+    <div class="col-sm-10">
+      <span class="com_title">{{ include.name }}</span><br>
+      <small>{{ include.date | date: "%m/%d/%Y @ %T %Z" }}</small><br>
+      <div>
+        <p>{{ message | markdownify }}</p>
+      </div>
+      <hr>
+    </div>
+  </div>
+</div>

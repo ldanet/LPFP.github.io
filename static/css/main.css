@@ -180,6 +180,53 @@ footer {
   background: rgba(89, 148, 129, 0.3);
 }
 .leafmap {
-	height: 250px;
-	width: 100%
+  height: 250px;
+  width: 100%
+}
+.avatar2 img {
+  display: block;
+  height: 80px;
+  border-radius: 100%;
+  border: 3px solid #F5F1F1;
+  margin-left: auto;
+  margin-right: auto;
+}
+.finger a {
+  cursor: pointer;
+}
+.postdate {
+  text-align: right;
+  color: #28292B;
+  font-size: 1em;
+  font-weight: 400;
+}
+.com_avatar img {
+  width: 50px;
+  height: 50px;
+  border-radius: 5%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.com_title {
+  color: #444444;
+  font-size: 1.5em;
+  font-weight: 500;
+  text-align: left;
+}
+.tile_com {
+  margin-top: 1.8em;
+  font-size: 2.5rem;
+  /*text-transform: uppercase;*/
+  /* lines in headline */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+h3.tile_com::after {
+  content: '\a0';
+  position: relative;
+  top: 1.3rem;
+  height: 2px;
+  background: #474646;
+  flex-grow: 1;
 }

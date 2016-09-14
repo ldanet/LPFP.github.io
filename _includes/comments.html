@@ -1,49 +1,61 @@
-{% if page.comments %}
-<hr>
-<h3><center>Ajouter un commentaire</center></h3>
+{% if page.comments == true %}
+{% if site.data.comments[page.slug] %}
+<div id="" class="">
+  <h3 class="tile_com">Commentaires</h3>
+  {% assign comments = site.data.comments[page.slug] | sort %}
+  {% for comment in comments %}
+    {% assign date = comment[1].date %}
+    {% assign email = comment[1].email %}
+    {% assign name = comment[1].name %}
+    {% assign message = comment[1].message %}
+    {% include troll.html index=forloop.index avatar=avatar email=email name=name url=url date=date message=message %}
+  {% endfor %}
+</div>
+{% endif %}
+{% endif %}
 
+
+{% if page.comments %}
+<h3><center>Ajouter un commentaire</center></h3>
 <div class="panel panel-default">
   <div class="panel-body">
+
     <form class="form-horizontal" method="POST"
     action="https://api.staticman.net/v1/entry/LPFP/LPFP.github.io/{{ site.staticman.branch }}">
-
       <input name="options[slug]" type="hidden" value="{{ page.slug }}">
       <input name="options[redirect]" type="hidden" value="{{ site.url }}{{ site.baseurl }}blog">
-
-      <div class="form-group">
-        <label class="control-label col-sm-2">Nom</label>
+      <!-- form-group -->
+      <div class="form-group form-group-lg">
+        <label class="control-label col-sm-2">Nom:</label>
         <div class="col-sm-10">
           <input name="fields[name]" id="staminput" class="form-control"
-          type="text" placeholder="Nom ou @pseudo_social" required/>
+          type="text" placeholder="nom" required/>
         </div>
       </div>
-
-      <div class="form-group">
+      <div class="form-group form-group-lg">
         <label class="control-label col-sm-2" for="email">Email:</label>
         <div class="col-sm-10">
           <input name="fields[email]" id="staemail" class="form-control"
           type="email" placeholder="email" required/>
         </div>
       </div>
-
       <div class="form-group form-group-lg">
-        <label class="col-sm-2 control-label" for="lg">Message</label>
+        <label class="control-label col-sm-2" for="lg">Message:</label>
         <div class="col-sm-10">
           <textarea name="fields[message]" id="statexta" class="form-control"
-          rows="5" placeholder="votre message syntax Markdown OK" required>
-          </textarea>
+          type="text" placeholder="votre message (markdown)[possible]"
+          required></textarea>
         </div>
       </div>
-
       <div class="col-sm-offset-2 col-sm-10">
         <button type="submit" class="btn btn-info btn-raised btn-lg project-link">
           Envoyer
         </button>
       </div>
-
     </form>
+
   </div>
 </div>
 {% else %}
-<!-- No Comments -->
+<center><p><em>l'ajout de nouveaux commentaires a été suspendu</em></p><center>
 {% endif %}

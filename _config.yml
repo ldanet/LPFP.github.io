@@ -33,6 +33,29 @@ staticman:
   transforms:
     email        : "md5"
 
+# authors
+lpfp:
+  twitter: lpfablabparis
+  github: LPFP
+  facebook: lepetitfablabdeparis
+  lpfp: "Le Petit FabLab de Paris"
+  quote: "Admin aka The Bot auto Reply & spam test"
+
+remi:
+  twitter: remstw
+  github: robyremzy
+  pgp: "2C4B AEF1 B2E7 D676"
+  lpfp: "Fab Manager du Dimanche"
+  quote: "Open Data, Carto-Hacker, Dj'vlopper sur outils libres"
+
+# nom:  #idem "poster" idem static/img/nom.jpg /!\ photo en .jpg
+#   twitter:
+#   github:
+#   facebook:
+#   pgp: "" #public key 64bit
+#   lpfp: "" #role au petit fablab
+#   quote: ""
+
 share:
   twitter_username: lpfablabparis
   fb_appid: LePetitFablabDeParis

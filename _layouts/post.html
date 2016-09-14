@@ -8,6 +8,7 @@ layout: default
       <img src="{{ site.baseurl }}assets/{{ page.img }}" alt="header" width="100%">
     </center><hr></div>
     {% endif %}
+    <div class="postdate"><i class="fa fa-calendar"></i>&nbsp;{{ page.date | date_to_long_string }}</div>
     <div class="post">{{ content }}</div>
     <div class="col-lg-8 col-lg-offset-2 text-center">
     </div>
@@ -47,6 +48,7 @@ layout: default
   <a class="next pull-right" href="{{ page.next.url }}">{{ page.next.title }} &raquo;</a>
   {% endif %}
 </div> -->
+{% include poster.html %}
 {% include mailing.html %}
 {% include disqus.html %}
 {% include comments.html %}
