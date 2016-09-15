@@ -52,4 +52,4 @@ Nous souhaitons faire le lien et soutenir ceux qui veulent partager et ceux qui 
 ## Les grandes lignes des évènements passés
 {% include story.html %}
 
-<center><h3>"On devrait arriver à faire encore plus avec vous!..."<h3></center>
+<center><h3>"On devrait arriver à faire encore plus avec vous!..."</h3></center>
