@@ -6,6 +6,17 @@ github: https://github.com/LPFP
 about: Le petit Fab-Lab de Paris
 mail: ateliers@lepetitfablabdeparis.fr
 
+nom: "Le Petit Fablab De Paris"
+nom-short: LPFP
+adr: 86 Av Philippe Auguste 75011 Paris
+email: bonjour@lepetitfablabdeparis.fr
+president: "Laurent Barnier"
+vicepresident: null
+tresorier: "Sakada Ly"
+porteparole: null
+secretaire: null
+tarif: "de 120€/an à 80€/an"
+
 token:
   mapbox: pk.eyJ1Ijoicm9ieXJlbXp5IiwiYSI6ImNpc2RtemNqazAwMTkyeG82MHBlemx6aTMifQ.wSeiG1ERx30Dwc27idsDfQ
   mapillary: enpzOU5oNGZIQW1NLTI0T2JrdGFmQTo0NDJjMTkzMzEwMDQxNGE4

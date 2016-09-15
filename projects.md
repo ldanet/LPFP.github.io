@@ -4,6 +4,14 @@ title: Nos Ateliers
 permalink: /projects/
 ---
 
+**À qui s'adresse les ateliers? est-ce que je peux venir?**
+Les ateliers sont à destination des membres du Fab-Lab et reste ouvert au non adhérants voulant y participer.
+
+**Ou puis-je trouver les dates et programme pour m'inscrire?**
+Nous essayons de tenir à jour un [calendriers](/#). Mais nous vous conseillons de vous inscrire à la [newsletters](/#).
+
+**J'ai une idée pour un atelier! Comment la concrétisé?**
+Vous maîtrisez un domaine ou un projet et vous souhaitez le partager, "bravo"!
+Il est parfois difficile de s'organiser, voiçi un petit <a href='https://github.com/LPFP/ateliers' target='blank'><i class="fa fa-external-link-square"></i> guide</a> pour vous aider à la conception.
+
 ## Les évenements Ateliers LPFP.
-comment préparé un atelier au petit fablab <a href='/newatelier'>sur cette page</a> <a href='https://github.com/LPFP/ateliers' target='blank'><i class="fa fa-external-link-square"></i> voir aussi sur giHub</a>
-Des questions sur <a href='/FAQ-atelier'>nos ateliers<i class="fa fa-question"></i></a>

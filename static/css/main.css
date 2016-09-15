@@ -230,3 +230,17 @@ h3.tile_com::after {
   background: #474646;
   flex-grow: 1;
 }
+.clickable-header {
+  cursor:pointer;
+}
+/*.clickable-header:hover {
+  text-decoration:underline;
+}*/
+
+/*.top-level-header {
+  display:inline;
+}
+.back-to-top {
+  margin-left:5px;
+  cursor:pointer;
+}*/
