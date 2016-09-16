@@ -1,80 +1,72 @@
 ---
 layout: extra
-title: Info Le petit fablab de paris
+title: Ouverture du petit fablab de paris
 mapbox: ok
 tile: mapbox://styles/mapbox/streets-v9
 mlng: 2.391934
-mlat: 48.855164
+mlat: 48.855000
 zoom: 17
 mapillary: ok
 mly_pkey: qTfbBM92Wrx2LNELoprtXw
 ---
-<div>
-  <div class="row">
 
-    <div class="col-xs-5">
-      <div id="fplppics" class="owl-carousel owl-theme">
-        <div class="item"><img class="img-responsive"
-          src="{{ "./assets/lpfppic.png" | prepend: site.baseurl }}" alt="wtf">
-        </div>
-        <div class="item"><img class="img-responsive"
-          src="{{ "./assets/ruler.jpg" | prepend: site.baseurl }}" alt="wtf">
-        </div>
-      </div>
-    </div>
-
-    <div id="" class="col-sm-7">
-      <div class="">
-        <center>
-          <h1>Fab-Lab Parisien</h1>
-          <h4>
-            Dédiées aux membres qui souhaitent développer leurs projets personnels<br>
-            ou participer aux projets collaboratifs.
-          </h4>
-        </center>
-        <p>
-          <center>
-            <a href="#" class="btn btn-info btn-raised btn-lg project-link"
-            role="button">Atelier ouvert aux publiques<br>Inscription Newsletters</a>
-            <hr>
-            <h2>Ouverture libre</h2>
-            <p>
-              <i class="fa fa-clock-o"></i>
-              <b>Du lundi au Vendredi:</b> Libre au FabManager d'ouvrir aux besoins.<br>
-              <i class="fa fa-clock-o"></i>
-              <b>Du Samedi au Dimanche:</b> 14h00 - 18h00 "Portes Ouvertes au public"<br>
-            </p>
-            <p>
-              <b>Adr:</b> 86 Av Philippe Auguste 75011 Paris<br>
-              <b>tel:</b> 09.51.58.75.50 <b>Contact par email</b>
-            </p>
-          </center>
-        </p>
-      </div>
-    </div>
-
-  </div>
-</div>
+{% include where.html %}
+<center>
+  <h2>Fab-Lab Parisien</h2>
+  <h4>
+    Dédiées aux membres qui souhaitent développer leurs projets personnels
+    ou de participer aux projets collaboratifs.
+  </h4>
+</center>
 
 <div class="container">
   <div class="panel panel-default">
     <div class="panel-body">
 
-      <div class="col-sm-6">
+      <div class="col-sm-8">
         {% include jk_mapbox.html mb_tile=page.tile %}
       </div>
-      <div class="col-sm-6">
-        {% include jk_mapillary.html %}
+      <div class="col-sm-4">
+        <p>
+          <center>
+            <h2>Ouverture libre</h2>
+            <p>
+              <i class="fa fa-clock-o"></i>
+              <b>Du lundi au Vendredi:</b><br>
+               Libre au FabManager d'ouvrir aux besoins.<br>
+               <center>voir calendrier</center>
+               <br>
+              <i class="fa fa-clock-o"></i>
+              <b>Du Samedi au Dimanche:</b><br>
+               14h00 - 18h00 "Portes Ouvertes au public"<br>
+            </p>
+            <p>
+              <b>Adr:</b> {{ site.adr }}<br>
+              <b>email:</b> {{ site.email }}<br>
+              <b>tel:</b> {{ site.tel }}
+            </p>
+            <hr>
+            <a href="#" class="btn btn-info btn-raised btn-lg project-link"
+            role="button">Atelier ouvert aux publiques<br>Inscription Newsletters</a>
+          </center>
+        </p>
       </div>
 
     </div>
   </div>
 </div>
-
 
 <div>
   <center>
     <a href="#" class="btn btn-info btn-raised btn-lg project-link"
     role="button" onclick="history.go(-1)">Retour vers le site</a><br>
   </center>
+</div>
+
+<div class="modal fade" id="mapIllary" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-body">
+      {% include jk_mapillary.html %}
+    </div>
+  </div>
 </div>

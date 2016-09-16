@@ -180,8 +180,15 @@ footer {
   background: rgba(89, 148, 129, 0.3);
 }
 .leafmap {
-  height: 250px;
-  width: 100%
+  position:absolute;
+  top:0;
+  bottom:0;
+  height: 420px;
+  width: 100%;
+}
+#mly {
+  width: 100%;
+  height: 400px;
 }
 .avatar2 img {
   display: block;
@@ -244,3 +251,27 @@ h3.tile_com::after {
   margin-left:5px;
   cursor:pointer;
 }*/
+/* Custome Sprites for mapping and mapillary */
+
+.marker-red,
+.marker-blue,
+.pkey-sbig,
+.pkey,
+.pkey-a,
+.pkey-hl,
+.pkey-hls
+
+{ display: inline-block;
+  background: url('https://raw.githubusercontent.com/RobyRemzy/robyremzy.github.io/master/images/carto/sprites_mix.png') no-repeat;
+  overflow: hidden;
+  cursor: pointer;
+  text-indent: -9999px;
+  text-align: left; }
+
+.marker-red { background-position: -1px -0px; width: 52px; height: 70px; }
+.marker-blue { background-position: -1px -213px; width: 37px; height: 50px; }
+.pkey-sbig { background-position: -1px -264px; width: 26px; height: 33px; }
+.pkey { background-position: -28px -264px; width: 18px; height: 24px; }
+.pkey-a { background-position: -28px -289px; width: 18px; height: 26px; }
+.pkey-hl { background-position: -1px -71px; width: 52px; height: 70px; }
+.pkey-hls { background-position: -1px -142px; width: 52px; height: 70px; }

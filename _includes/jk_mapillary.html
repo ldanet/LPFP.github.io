@@ -1,5 +1,5 @@
 {% if page.mapillary %}
-<div id="mly" class="leafmap"></div>
+<div id="mly"></div>
 {% endif %}
 
 {% if page.mapillary %}
@@ -13,12 +13,11 @@ var mly = new Mapillary.Viewer(
   '{{ page.mly_pkey }}',
   {% endif %}
   {
-    // see options: http://mapillary.github.io/mapillary-js/interfaces/ivieweroptions.html
     "cover": true,
     "renderMode": Mapillary.RenderMode.Fill,
-    "basePanoramaSize": Mapillary.ImageSize.Size2048,
-    "baseImageSize": Mapillary.ImageSize.Size320,
-    "maxImageSize": Mapillary.ImageSize.Size2048,
+    "basePanoramaSize": Mapillary.ImageSize.Size640,
+    "baseImageSize": Mapillary.ImageSize.Size640,
+    "maxImageSize": Mapillary.ImageSize.Size640,
   }
 );
 </script>

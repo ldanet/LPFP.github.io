@@ -1,6 +1,6 @@
 title: LPFP Le Petit Fab-Lab de Paris
 description: Ateliers aux Petit Fab-Lab de Paris.
-author: Atelier LPFP
+author: Asso [Fab-Lab]
 logo: LPFP_square_logo.png
 github: https://github.com/LPFP
 about: Le petit Fab-Lab de Paris
@@ -9,8 +9,9 @@ mail: ateliers@lepetitfablabdeparis.fr
 #asso
 nom: "Le Petit Fablab De Paris"
 nom-short: LPFP
-adr: 86 Av Philippe Auguste 75011 Paris
+adr: 86 Avenue Philippe Auguste 75011 Paris
 email: bonjour@lepetitfablabdeparis.fr
+tel: +33 9 51 58 75 50
 president: "Laurent Barnier"
 vicepresident: null
 tresorier: "Sakada Ly"
