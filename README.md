@@ -27,7 +27,7 @@ gem install bundler
 
 ```shell
 #Lancer jekyll et la version du site
-cd LPFP.github.io.git
+cd LPFP.github.io
 bundle install
 bundle exec jekyll serve
 ```
@@ -36,7 +36,7 @@ bundle exec jekyll serve
 
 **installation sur un server**
 
-* *Option1* enter un [CNAME](https://help.github.com/articles/using-a-custom-domain-with-github-pages/) depuis de répertoir Github.
+* *Option1* enter un [CNAME](https://help.github.com/articles/using-a-custom-domain-with-github-pages/) depuis le répertoir Github "settings".
 * *Option2* Sur un server, envoyer le build `_site` avec [Travis](https://travis-ci.org/) (si pas de module Ruby sur le server).
 
 ### Demo
@@ -97,6 +97,22 @@ img: pics.png
 ```
 
 Le reste du post se rédige avec une synatxe en [Markdown](https://daringfireball.net/projects/markdown/basics).
+
+#### ajouter un éditeur ou modifier les info de l'asso
+
+Pour modifier l'association voir section `asso`.
+
+pour ajouter un éditeur, dé commenter la section ci-dessous et remplir les information dans le fichier `_config.yaml`
+
+```yaml
+# nom:  #idem "poster" idem static/img/nom.jpg /!\ photo en .jpg
+#   twitter:
+#   github:
+#   facebook:
+#   pgp: "" #public key 64bit
+#   lpfp: "" #role au petit fablab
+#   quote: ""
+```
 
 #### Apporter une correction au site.
 Pour toute correction a faire qui nous auraient échappés, Github permet de faire des [issues](https://github.com/LPFP/LPFP.github.io/issues) ou de pouvoir inclure vos modifications avec un [merge](https://github.com/LPFP/LPFP.github.io/pulls), si vous avez préalablement "forké" le projet, éviter s'il vous plait l'envoie de mail pour nous signaler certaines erreurs, passer directement par Github ou par "Slack".
