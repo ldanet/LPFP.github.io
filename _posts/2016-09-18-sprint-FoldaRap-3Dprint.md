@@ -2,7 +2,7 @@
 layout: post
 title:  "Sprint LPFP - imprimantes 3D"
 date:   2016-09-18 19:42:42
-img: sprint20160918.jpg
+img: sprint20160918.png
 comments: true
 poster: remi
 ---
