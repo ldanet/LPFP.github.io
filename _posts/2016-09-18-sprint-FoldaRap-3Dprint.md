@@ -8,7 +8,7 @@ poster: remi
 ---
 
 # LPFP sprint imprimantes 3D FoldaRap
-La FoldaRap avait la buse de boucher accompagner d'un problème de surchauffe du moteur de l'axe X.
+La FoldaRap avait la buse de bouché accompagner d'un problème de surchauffe du moteur de l'axe X.
 
 ## Prise en main
 
