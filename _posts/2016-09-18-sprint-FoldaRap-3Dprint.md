@@ -45,7 +45,7 @@ Le fil PLA fond moins vite qu'il n'avance.
 Ce qui donne un effet de fil PLA qui s'accumule entre la buse et le chariot lorsqu'on on teste l'extrudeur.
 
 # DAGOMA Discovery200 "Albertine"
-Nous avons entrepris un debouchage de la buse et une analyse techniques du rapport fils et probleme therimque.
+Nous avons entrepris un debouchage de la buse et une analyse techniques du rapport entre les fils et problèmes thermiques.
 
 >buse bouchée
 
