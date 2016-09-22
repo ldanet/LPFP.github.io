@@ -65,6 +65,10 @@ dossier pour le fichier .JS `_includes/js.html`.
 Custom Fonts
 dossier pour les fichiers .CSS `static/fonts/`.
 
+* [brainflower](http://deathmunkey.deviantart.com/art/Brain-Flower-A-Font-332204280)
+* [LatoLatin](http://www.latofonts.com/lato-free-fonts/)
+* [mFizz](http://fizzed.com/oss/font-mfizz)
+
 #### Enregister / modifier un atelier/materiel/historique
 voir dans le repertoire > fichier.json ci-dessous pour créer une nouvelle entré.
 
@@ -115,4 +119,5 @@ pour ajouter un éditeur, dé commenter la section ci-dessous et remplir les inf
 ```
 
 #### Apporter une correction au site.
-Pour toute correction a faire qui nous auraient échappés, Github permet de faire des [issues](https://github.com/LPFP/LPFP.github.io/issues) ou de pouvoir inclure vos modifications avec un [merge](https://github.com/LPFP/LPFP.github.io/pulls), si vous avez préalablement "forké" le projet, éviter s'il vous plait l'envoie de mail pour nous signaler certaines erreurs, passer directement par Github ou par "Slack".
+Pour toute correction a faire qui nous auraient échappés, Github permet de faire des [issues](https://github.com/LPFP/LPFP.github.io/issues) ou de pouvoir inclure vos modifications avec un [merge](https://github.com/LPFP/LPFP.github.io/pulls), si vous avez préalablement "forké" le projet.
+éviter s'il vous plait l'envoie de mail pour nous signaler certaines erreurs, passer directement par Github ou par "Slack".
