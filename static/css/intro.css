@@ -4,6 +4,9 @@
   background-color: rgba(0, 0, 0, 0.0);
   text-align: center;
 }
+.bckgr {
+  background-color: rgba(0, 0, 0, 0.3);
+}
 h1.slick{
   color: #fff;
   font-family: "brain_flowerregular";
