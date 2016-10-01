@@ -1,4 +1,3 @@
-# découpe vinyle
 
 
 Vos fichiers doivent:
@@ -15,7 +14,7 @@ Volume maximum d’impression : 200 x 200 x 180 mm
 
 **impression 3D**
 
-* Les imprimantes Solidoodle et Ultimaker fonctionnent par dépôt de fil chaud. Elle déposent un filament plastique couche par couche. Les volumes démoulables sont donc les plus simple à imprimer.
+* Les imprimantes Solidoodle et Ultimaker fonctionnent par dépôt de fil chaud. Elle dépose un filament plastique couche par couche. Les volumes démoulables sont donc les plus simple à imprimer.
 
 * Vos fichiers doivent être:
 * créés sur un logiciel de modélisation 3D (Rhinoceros, Blender, Sketchup, etc.) ou téléchargés d’une bibliothèque ligne (thingiverse, google 3D warehouse, etc.)
@@ -33,7 +32,7 @@ De toutes façons, en discuter avec l’opérateur des machines pour évaluer la
 * Installer driver*
 
 Cas de la pièce originale
-Modeliser le fichier 3D (Solidworks, Sketch’up, Rhinoceros)
+Modéliser le fichier 3D (Solidworks, Sketch’up, Rhinoceros)
 Exporter en stl >> options ASCII (fichier moins lourd)
 Nom du fichier sans accent ni caractères spéciaux.
 
@@ -48,14 +47,14 @@ image....
 Vérifier le port com04 ou 06
      la vitesse 250000
 Cliquer sur le bouton «connect»
-Complèment à droite, il y a une sorte de journal qui affiche toute les informations en directe venant de la machine.
+Complément à droite, il y a une sorte de journal qui affiche toutes les informations en directe venant de la machine.
 Cocher la case «monitor»
-Cela active les graphique de température complètement en bas à gauche.
+Cela active les graphiques de température complètement en bas à gauche.
 Régler la température de la buse à 200° et du plateau à 95°.
 Cliquer sur «On» pour activer la montée en température.
 Pour créer le Gcode pour l’impression:
 Cliquer sur «Fichier>Slicing Setting»
-    La fenêtre de Sl3cer s’ouvre, chaque onglet correspond aux réglagles machines (remplissage, nombre de contour, dimensions du plateaux).
+    La fenêtre de Sl3cer s’ouvre, chaque onglet correspond aux réglages machines (remplissage, nombre de contour, dimensions du plateau).
 Cliquer sur Ouvrir, aller chercher le fichier stl.
 
 image 2

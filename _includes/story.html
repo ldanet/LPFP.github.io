@@ -12,11 +12,26 @@
     </div>
 
     <div class="cd-timeline-content">
+
+      <!-- option modale -->
+      <div class="modal fade panel-body" id="moreInfoTime" role="dialog">
+        <div class="modal-dialog">
+          <div class="modal-body">
+            <!-- {{ i.add }} add jquery to embd template -->
+          </div>
+        </div>
+      </div>
+      <!-- end modal -->
+
       {% if i.titre %}
       <b>{{ i.titre }}</b>
       {% endif %}
       {% if i.fyi %}
       <p>{{ i.fyi }}</p>
+      {% if i.add %}
+      <button type="button" class="btn btn-info btn-lg" data-toggle="modal"
+      data-target="#moreInfoTime">Open Modal</button>
+      {% endif %}
       {% endif %}
       {% if i.date %}
       <span class="cd-date">{{ i.date }}</span>
