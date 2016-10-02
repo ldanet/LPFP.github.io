@@ -28,8 +28,8 @@ layout: default
               </div>
             </div>
             <div class="project-footer">
-              {% if i.url %}
-              <a href="{{ i.url }}" target="_blank" class="btn btn-info btn-raised btn-sm project-link">Ouvrir</a>
+              {% if i.doc %}
+              <a href="{{ i.doc }}" target="_blank" class="btn btn-info btn-raised btn-sm project-link">Intro</a>
               {% endif %}
               <span class="project-timeline">{{ i.date }}</span>
             </div>
@@ -39,5 +39,49 @@ layout: default
       {% endfor %}
     </div>
   </div>
+
+<!-- <form id="rendered-form">
+  <div class="">
+    <h1 type="h1" class="header" id="">Atelier du petit FabLab de Paris</h1>
+  </div>
+  <div class="form-group field-text-1475379729215">
+    <label for="text-1475379729215">Nom de l'atelier <span class="required">*</span>
+    </label> <input required="" placeholder="mon super atelier" class="form-control" name="text-1475379729215" id="text-1475379729215" aria-required="true" type="text">
+  </div>
+  <div class="form-group field-select-1475379794060">
+    <label for="select-1475379794060">Type d'atelier <span class="required">*</span>
+      <span class="tooltip-element" tooltip="Si vous deviez classer votre atelier suivant une categorie">?</span>
+    </label>
+    <select type="select" required="" class="form-control" name="select-1475379794060" id="select-1475379794060" aria-required="true">
+      <option value="option-1" selected="true">manuel</option>
+      <option value="option-2">hardware</option>
+      <option value="option-3">sofware</option>
+    </select>
+  </div>
+  <div class="form-group field-text-1475379942914">
+    <label for="text-1475379942914">Votre Nom/pseudo <span class="required">*</span>
+    </label> <input required="" placeholder="nom ou pseudo" class="form-control" name="text-1475379942914" id="text-1475379942914" aria-required="true" type="text">
+  </div>
+  <div class="form-group field-text-1475380069695">
+    <label for="text-1475380069695">Votre email <span class="required">*</span>
+    </label> <input required="" class="form-control" name="text-1475380069695" id="text-1475380069695" aria-required="true" type="email">
+  </div>
+  <div class="form-group field-textarea-1475380119045">
+    <label for="textarea-1475380119045">Description <span class="required">*</span>
+    </label>
+    <textarea type="textarea" required="" placeholder="decrivez en quelques mots votre atelier" class="form-control" name="textarea-1475380119045" id="textarea-1475380119045" aria-required="true">
+    </textarea>
+  </div>
+  <div class="form-group field-text-1475380170126">
+    <label for="text-1475380170126">présentation en ligne  <span class="tooltip-element" tooltip="avez vous une présentation en ligne publique?">?</span>
+    </label>
+    <input placeholder="http://" class="form-control" name="text-1475380170126" id="text-1475380170126" type="text">
+  </div>
+  <div class="form-group field-date-1475380299048">
+    <label for="date-1475380299048">Disponibilitée
+    </label>
+    <input class="calendar" name="date-1475380299048" id="date-1475380299048" type="date">
+  </div>
+</form> -->
 
 </article>

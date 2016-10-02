@@ -1,10 +1,16 @@
 [
   {
+    "nom": "Rémi",
+    "email": "robyremzy@openmailbox.org",
+    "twiter": "remstw",
+    "facebook": null,
     "name": "Une carte en JavaScript",
     "image": "cartjs.png",
+    "tags": ["JS","API","leaflet"],
+    "desc": "Cet atelier est grand publique. Nous allons voir ensemble comment utiliser et personnaliser ce que Open Street Map peut mettre à notre disposition. Rien d'insurmontable en termes de code en JavaScript, au contraire c'est une approche très douce avec des exemples très concrets.",
+    "doc": "https://github.com/LPFP/CartoJs/blob/master/1simpleLeaflet/TUTO.md",
     "url": "https://github.com/LPFP/CartoJs",
-    "date": "02 Oct 2016",
-    "tags": ["JS","API","leaflet"]
+    "date": "02 Oct 2016"
   },
   {
     "name": "D.I.Y savon",
