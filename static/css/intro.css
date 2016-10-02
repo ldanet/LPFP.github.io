@@ -23,11 +23,11 @@ h1.slick{
   margin-bottom: 18px;
 }
 
-ul {
+.clean ul {
   list-style: none;
   padding: 0;
 }
-li {
+.clean li {
   border-radius: 100%;
   border: 2px solid white;
   color: white;
@@ -37,7 +37,7 @@ li {
   width: 65px;
   height: 65px;
 }
-li:hover {
+.clean li:hover {
   color: white;
   text-decoration: none;
   -webkit-transition: 500ms;
@@ -46,7 +46,7 @@ li:hover {
   text-decoration: none;
   background-color: rgba(0, 0, 0, 0.1);
 }
-a {
+.clean a {
   color: #F90B6F;
   padding: 15px;
   text-decoration: none;
@@ -56,10 +56,10 @@ a {
 }
 
 @media (max-width: 450px) {
-  ul {
+  .clean ul {
     text-align: center;
   }
-  li {
+  .clean li {
     border-radius: 0%;
     border: none;
     color: white;
@@ -71,11 +71,11 @@ a {
     height: auto;
     width: auto;
   }
-  li:hover {
+  .clean li:hover {
     background-color: none;
     transition: none;
   }
-  a {
+  .clean a {
     text-align: justify;
     border: 2px solid white;
     border-radius: 5px;
@@ -84,7 +84,7 @@ a {
     padding-left: 30px;
     width: 70%;
   }
-  a:hover {
+  .clean a:hover {
     -webkit-transition: 500ms;
     -moz-transition: 500ms;
     transition: 500ms;
