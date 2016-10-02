@@ -5,26 +5,91 @@ title: bienvenu sur Le petit fablab de paris
 
 <div id="fablabization" class="myfront">
   <a href="/fablab">
-    <img src="{{ site.baseurl }}static/img/{{ site.logo }}" id="avatar">
+    <img src="{{ site.baseurl }}static/img/{{ site.logo }}" id="avatar" title="Enter">
   </a>
-  <a href="/fablab">
-    <h1 class="slick">Entré au Fab'</h1>
-  </a>
-  <ul>
-    <li>
-      <a class="fa fa-2x fa-github" href="https://github.com/LPFP" target="_blank">
-        <span class="description">GitHub</span>
-      </a>
-    </li>
-		<li>
-      <a class="fa fa-2x fa-book" href="https://lpfp.github.io/LPFPdoc/" target="_blank">
-        <span class="description">DocDuFabLab</span>
-      </a>
-    </li>
-    <li>
-      <a class="fa fa-2x fa-key" href="{{ site.token.pgp }}" target="_blank">
-        <span class="description">PGP Key</span>
-      </a>
-    </li>
-  </ul>
+  <h1 class="slick">
+    <a href="/fablab">
+      Entrez dans l'atelier
+    </a>
+  </h1>
+</div>
+
+<div class="container-fluid bckgr">
+  <div class="row">
+    <div class="col-sm-4 links">
+      <p>
+        <center>
+          <h2>Ouverture</h2>
+          <p>
+            <i class="fa fa-clock-o"></i>
+            <b>Portes Ouvertes au public</b><br>
+            {{ site.pop }}<br>
+          </p>
+          <p>
+            <i class="fa fa-calendar"></i>
+            <a href="#" data-toggle="modal" data-target="#calendar">Voir notre calendrier</a>
+          </p>
+        </center>
+      </p>
+    </div>
+    <div class="col-sm-4">
+      <p>
+        <center>
+          <h2>Contact</h2>
+          <p>
+            <b>Adr:</b> {{ site.adr }}<a href="/where"> -- plan</a><br>
+            <b>email:</b> {{ site.email }}<br>
+            <b>pgp:</b> {{ site.remi.pgp }}<br>
+            <b>tel:</b> {{ site.tel }}
+          </p>
+        </center>
+      </p>
+    </div>
+    <div class="col-sm-4 clean">
+      <p>
+        <center>
+          <h2>Liens</h2>
+          <ul>
+            <li>
+              <a class="fa fa-2x fa-github" href="https://github.com/LPFP" target="_blank">
+                <span class="description">GitHub</span>
+              </a>
+            </li>
+            <li>
+              <a class="fa fa-2x fa-twitter" href="http://twitter.com/lpfablabparis" target="_blank">
+                <span class="description">DocDuFabLab</span>
+              </a>
+            </li>
+            <li>
+              <a class="fa fa-2x fa-facebook" href="http://facebook.com/lepetitfablabdeparis" target="_blank">
+                <span class="description">PGP Key</span>
+              </a>
+            </li>
+          </ul>
+        </center>
+      </p>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div id="calendar" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Calendrier du petit FabLab de Paris</h4>
+      </div>
+      <div class="modal-body">
+        <iframe src={{ site.calendrier }} style=" border-width:0 "
+        width="100%" height="450" frameborder="0" scrolling="no"></iframe>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+      </div>
+    </div>
+
+  </div>
 </div>

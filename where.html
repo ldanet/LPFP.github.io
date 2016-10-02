@@ -32,13 +32,15 @@ mly_pkey: qTfbBM92Wrx2LNELoprtXw
             <h2>Ouverture libre</h2>
             <p>
               <i class="fa fa-clock-o"></i>
-              <b>Du lundi au Vendredi:</b><br>
-               Libre au FabManager d'ouvrir aux besoins.<br>
-               <center>voir calendrier</center>
+              <b>Nos ateliers</b><br>
+               {{ site.atelier }}<br>
+               <center><a href="#" data-toggle="modal" data-target="#calendar">
+                 voir calendrier</a>
+               </center>
                <br>
               <i class="fa fa-clock-o"></i>
-              <b>Du Samedi au Dimanche:</b><br>
-               14h00 - 16h00 "Portes Ouvertes au public"<br>
+              <b>Portes Ouvertes au public</b><br>
+               {{ site.pop }}<br>
             </p>
             <p>
               <b>Adr:</b> {{ site.adr }}<br>
@@ -47,7 +49,7 @@ mly_pkey: qTfbBM92Wrx2LNELoprtXw
             </p>
             <hr>
             <a href="#" class="btn btn-info btn-raised btn-lg project-link"
-            role="button">Atelier ouvert aux publiques<br>Inscription Newsletters</a>
+            role="button">Atelier ouvert aux publiques<br>Inscription info-lettre</a>
           </center>
         </p>
       </div>
@@ -68,5 +70,27 @@ mly_pkey: qTfbBM92Wrx2LNELoprtXw
     <div class="modal-body">
       {% include jk_mapillary.html %}
     </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div id="calendar" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Calendrier du petit FabLab de Paris</h4>
+      </div>
+      <div class="modal-body">
+        <iframe src={{ site.calendrier }} style=" border-width:0 "
+        width="100%" height="450" frameborder="0" scrolling="no"></iframe>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+      </div>
+    </div>
+
   </div>
 </div>

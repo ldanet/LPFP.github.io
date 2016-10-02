@@ -8,7 +8,7 @@ permalink: /projects/
 Les ateliers sont à destination des membres du Fab-Lab comme au non adhérant.
 
 **Ou puis-je trouver les dates et programme pour m'inscrire?**
-Nous essayons de tenir à jour un [calendriers](/#). Mais nous vous conseillons de vous inscrire à la [newsletters](/#).
+Pour vous tenir au courant de nos activités nous vous conseillons de vous inscrire à la [l'info-lettre](/where).
 
 **J'ai une idée pour un atelier! Comment la concrétiser?**
 Vous maîtrisez un domaine ou un projet et vous souhaitez le partager, “bravo”!

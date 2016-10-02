@@ -6,7 +6,7 @@ img: lpfp.png
 ---
 
 ### Petit mot du Petit Fablab
->Les locaux se destinent à accueillir aussi bien des bricoleurs expérimentés que les simples curieux. Nous organisons régulièrement des formations dont le but est de suscitée la création ou dans certains cas renforcer des projets.
+>Les locaux se destinent à accueillir aussi bien des bricoleurs et bricoleuses expérimentés que les simples curieux zé! curieuses. Nous organisons régulièrement des formations dont le but est de suscitée la création ou dans certains cas renforcer des projets.
 
 <!-- <div id="toc"></div> -->
 
@@ -32,24 +32,25 @@ Les Fab Labs sont un réseau mondial de laboratoires locaux, qui dopent l’inve
 >voir les [statu de l'association]()
 
 ## Participer au fablab
-Devenir adhérant à l’association avec ce [bulletin en ligne](#) ou sur place.
+Pour devenir adhérant.e à l’association rendez-vous sur place Les personnes présentes lors des portes ouvertes serons a votre écoute.
 Pour utiliser nos machines, vous devrez participer en contreparties à la vie du lieu.
 Les membres adhérant à l'association recevrons une formation pour le bon usage des machines.
+Pour une demande de stage, malheureusement, vu nos horaires et nos moyens logistiques, il n’est pas possible d’accueillir décemment un.e stagiaire parmi nous.
 
-### Concevoir un projet au lab
+### Concevoir un projet au lab avec accés aux machines
 
+* adhérer à l’association et devenir membre ( {{ site.tarif}} )
 * Le projet doit être reproductibles sous [licences libres](https://fr.wikipedia.org/wiki/Licence_libre).
 * Une documentation est souhaitable pour accompagner les futurs contributeurs.trices.
 * Engager un respect du point de vu légal avec une attention sur la sécurité.
 
 >*{{ site.nom }} vous encourage aussi à diriger des ateliers pour partager les compétences techniques acquissent.*
 
+>*{{ site.nom }} ne fait plus de prestations. Si vous souhaitez utiliser nos machines ponctuellement pour votre projet dans le cadre de vos études ou autre, vous devrez participer à la vie du lieu. Cela se fera au cas par cas, et une réfléxion en amont sera faites avec les membres.*
+
 ### Un Brin de philosophie
 Nous pensons que le projet {{ site.nom-short }} peut être une source d'inspiration à la confluence des Arts, des Sciences et de la Philosophie. Notre association, depuis ses débuts, met en avant une certaine idée de la diversité.
-Nous souhaitons faire le lien et soutenir ceux qui veulent partager et ceux qui veulent en savoir plus. Ce souhait, dois pouvoir écarter le plus possible toutes barrières d'accès, notamment celle financières.
+Nous souhaitons faire le lien et soutenir celles et ceux qui veulent partager et le tout-venant dont le désir est d'en savoir plus. Ce souhait, dois pouvoir écarter le plus possible toutes barrières d'accès, notamment celle financières.
 
-
-## Les grandes lignes des événements passés
-{% include story.html %}
-
-<center><h3>« On devrait arriver à faire encore plus avec vous!... »</h3></center>
+> De 2012 à Aujourd'hui...
+> [Voir notre résumé des événements passés](/timeline)
