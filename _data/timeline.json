@@ -64,7 +64,7 @@
     "icon": "fa-legal",
     "nature": "wow"
   },
-	{
+  {
     "titre": "Open Bidouille Camp Paris",
     "date": "Mars 2016",
     "fyi": "Sans local mais toujours là aux fêtes de l'OBC Paris.",
@@ -84,5 +84,12 @@
     "fyi": "Nous entamons une nouvelle vie dans les locaux de L’AGECA.",
     "icon": "fa-home",
     "nature": "participer"
+  },
+  {
+    "titre": "1er Financement participatif",
+    "date": "Sept 2016",
+    "fyi": "Campagne: une découpeuse laser pour tous! Fini avec succès à 103% soit 5199€ chez <a href='https://www.ulule.com/le-petit-fablab/' target='_blank'>Ulule</a>.",
+    "icon": "fa-star-o",
+    "nature": "wow"
   }
 ]
