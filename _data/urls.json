@@ -6,8 +6,13 @@
   },
   {
     "text": "Ateliers",
-    "url": "./projects/",
+    "url": "./ateliers/",
     "icon": "fa-users"
+  },
+  {
+    "text": "Projets",
+    "url": "./projects/",
+    "icon": "fa-archive"
   },
   {
     "text": "Matériel",

@@ -1,18 +1,61 @@
 /*themes: https://github.com/iwootten/jekyll-syntax*/
-pre.highlight,
-.highlight pre { background-color: #272822; }
-.highlight .hll { background-color: #272822; }
-.highlight .c { color: #D2D1CD } /* Comment */
+/* Solarized Dark
+For use with Jekyll and Pygments
+http://ethanschoonover.com/solarized
+*/
+div.highlighter-rouge,
+figure.highlight {
+  position: relative;
+  margin: 2em 0;
+  border: 1px solid #9C9C9C;
+  border-radius: 5px;
+  overflow-x: auto;
+
+  .highlight {
+    padding: 1em;
+  }
+}
+
+.highlight {
+  margin: 0;
+  color: #F5F2ED;
+  background-color: #4F4F4F;
+  overflow-x: auto;
+
+  @media (min-width: $small) and (max-width: $medium-wide) {
+    width: 550px;
+  }
+
+  pre {
+    margin: 0;
+    width: 100%;
+  }
+
+  table td { padding: 5px; }
+  table pre { margin: 0; }
+}
+
+.highlighttable {
+
+  tr:hover > td,
+  tr:hover > th {
+    background: transparent;
+  }
+}
+
+.highlight .hll { background-color: #4F4F4F }
+/*.highlight  { background: #4F4F4F; color: #f8f8f2 }*/
+.highlight .c { color: #DB29DF; font-weight: bold } /* Comment */
 .highlight .err { color: #960050; background-color: #1e0010 } /* Error */
 .highlight .k { color: #66d9ef } /* Keyword */
 .highlight .l { color: #ae81ff } /* Literal */
 .highlight .n { color: #f8f8f2 } /* Name */
 .highlight .o { color: #f92672 } /* Operator */
 .highlight .p { color: #f8f8f2 } /* Punctuation */
-.highlight .cm { color: #D2D1CD } /* Comment.Multiline */
-.highlight .cp { color: #D2D1CD } /* Comment.Preproc */
-.highlight .c1 { color: #D2D1CD } /* Comment.Single */
-.highlight .cs { color: #D2D1CD } /* Comment.Special */
+.highlight .cm { color: #75715e } /* Comment.Multiline */
+.highlight .cp { color: #75715e } /* Comment.Preproc */
+.highlight .c1 { color: #75715e } /* Comment.Single */
+.highlight .cs { color: #75715e } /* Comment.Special */
 .highlight .ge { font-style: italic } /* Generic.Emph */
 .highlight .gs { font-weight: bold } /* Generic.Strong */
 .highlight .kc { color: #66d9ef } /* Keyword.Constant */
@@ -60,8 +103,3 @@ pre.highlight,
 .highlight .vg { color: #f8f8f2 } /* Name.Variable.Global */
 .highlight .vi { color: #f8f8f2 } /* Name.Variable.Instance */
 .highlight .il { color: #ae81ff } /* Literal.Number.Integer.Long */
-
-.highlight .gh { } /* Generic Heading & Diff Header */
-.highlight .gu { color: #75715e; } /* Generic.Subheading & Diff Unified/Comment? */
-.highlight .gd { color: #f92672; } /* Generic.Deleted & Diff Deleted */
-.highlight .gi { color: #a6e22e; } /* Generic.Inserted & Diff Inserted */

@@ -14,12 +14,11 @@
 {% endif %}
 {% endif %}
 
-
 {% if page.comments %}
+<hr>
 <h3><center>Ajouter un commentaire</center></h3>
 <div class="panel panel-default">
   <div class="panel-body">
-
     <form class="form-horizontal" method="POST"
     action="https://api.staticman.net/v1/entry/LPFP/LPFP.github.io/{{ site.staticman.branch }}">
       <input name="options[slug]" type="hidden" value="{{ page.slug }}">
@@ -53,9 +52,13 @@
         </button>
       </div>
     </form>
-
   </div>
 </div>
 {% else %}
-<center><p><em>l'ajout de nouveaux commentaires a été suspendu</em></p><center>
+<hr>
+<div>
+  <center>
+    <p>l'ajout de nouveaux commentaires a été suspendu</p>
+  </center>
+</div>
 {% endif %}

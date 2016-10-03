@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Nos Ateliers
-permalink: /projects/
+permalink: /ateliers/
 ---
 
 **À qui s'adresse les ateliers? est-ce que je peux venir?**
