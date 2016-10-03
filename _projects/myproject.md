@@ -20,7 +20,7 @@ Mon atelier, *italique*, **en gras**, coller une photo:
 ![my alternate text](http://lorempixel.com/400/200)
 
 ### titre H3
-Voir ci-desouus le code source de ce post:
+Voir ci-dessous le code source de ce post:
 
 ```markdown
 ---
@@ -41,5 +41,5 @@ Mon atelier, *italique*, **en gras**, coller une photo:
 ![my alternate text](http://lorempixel.com/400/200)
 
 ### titre H3
-Voir ci-desouus le code source de ce post:
+Voir ci-dessous le code source de ce post:
 ```
