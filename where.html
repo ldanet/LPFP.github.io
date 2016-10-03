@@ -29,19 +29,16 @@ mly_pkey: qTfbBM92Wrx2LNELoprtXw
       <div class="col-sm-4">
         <p>
           <center>
-            <h2>Ouverture libre</h2>
+            <h2>Ouverture</h2>
+            <hr>
             <p>
-              <i class="fa fa-clock-o"></i>
-              <b>Nos ateliers</b><br>
+              <h4><i class="fa fa-clock-o"></i> Nos ateliers</h4>
                {{ site.atelier }}<br>
-               <center><a href="#" data-toggle="modal" data-target="#calendar">
-                 voir calendrier</a>
-               </center>
                <br>
-              <i class="fa fa-clock-o"></i>
-              <b>Portes Ouvertes au public</b><br>
+              <h4><i class="fa fa-clock-o"></i> Portes Ouvertes au public</h4>
                {{ site.pop }}<br>
             </p>
+            <hr>
             <p>
               <b>Adr:</b> {{ site.adr }}<br>
               <b>email:</b> {{ site.email }}<br>
@@ -49,7 +46,9 @@ mly_pkey: qTfbBM92Wrx2LNELoprtXw
             </p>
             <hr>
             <a href="#" class="btn btn-info btn-raised btn-lg project-link"
-            role="button">Atelier ouvert aux publiques<br>Inscription info-lettre</a>
+            role="button" data-toggle="modal" data-target="#calendar">
+              <i class="fa fa-calendar"></i> voir notre calendrier
+            </a>
           </center>
         </p>
       </div>
