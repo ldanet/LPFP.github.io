@@ -275,3 +275,99 @@ h3.tile_com::after {
 .pkey-a { background-position: -28px -289px; width: 18px; height: 26px; }
 .pkey-hl { background-position: -1px -71px; width: 52px; height: 70px; }
 .pkey-hls { background-position: -1px -142px; width: 52px; height: 70px; }
+
+.myfront {
+  padding-top: 60px;
+  padding-bottom: 18px;
+  background-color: rgba(0, 0, 0, 0.0);
+  text-align: center;
+}
+.bckgr {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+h1.slick{
+  color: #fff;
+  font-family: "brain_flowerregular";
+  font-size: 5em;
+  font-weight: 200;
+}
+.slick a:hover {
+  text-decoration: none;
+}
+#avatar {
+  height: 220px;
+  border-radius: 100%;
+  border: 5px solid white;
+  margin-bottom: 18px;
+}
+
+.clean ul {
+  list-style: none;
+  padding: 0;
+}
+.clean li {
+  border-radius: 100%;
+  border: 2px solid white;
+  color: white;
+  margin: 8px;
+  display: inline-block;
+  list-style: none;
+  width: 65px;
+  height: 65px;
+}
+.clean li:hover {
+  color: white;
+  text-decoration: none;
+  -webkit-transition: 500ms;
+  -moz-transition: 500ms;
+  transition: 500ms;
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.clean a {
+  color: #F90B6F;
+  padding: 15px;
+  text-decoration: none;
+}
+.description {
+  display: none;
+}
+
+@media (max-width: 450px) {
+  .clean ul {
+    text-align: center;
+  }
+  .clean li {
+    border-radius: 0%;
+    border: none;
+    color: white;
+    margin: 8px;
+    display: block;
+    list-style: none;
+    margin: 10px 0px;
+    text-align: center;
+    height: auto;
+    width: auto;
+  }
+  .clean li:hover {
+    background-color: none;
+    transition: none;
+  }
+  .clean a {
+    text-align: justify;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: #F90B6F;
+    padding: 15px;
+    padding-left: 30px;
+    width: 70%;
+  }
+  .clean a:hover {
+    -webkit-transition: 500ms;
+    -moz-transition: 500ms;
+    transition: 500ms;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: white;
+    text-decoration: none;
+  }
+}

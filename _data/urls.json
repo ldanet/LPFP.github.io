@@ -18,5 +18,10 @@
     "text": "Blog",
     "url": "./blog",
     "icon": "fa-comments"
+  },
+  {
+    "text": "Infos!",
+    "url": "./infolettre",
+    "icon": "fa-envelope-o"
   }
 ]
