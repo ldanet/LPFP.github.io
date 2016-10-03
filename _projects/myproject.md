@@ -25,7 +25,7 @@ Voir ci-desouus le code source de ce post:
 ```markdown
 ---
 layout: post #ne pas modifier
-title: Test Page #titre de votre projet
+title: Mon super projet! #titre de votre projet
 date: 5 Sept 2015 #date de début du projet
 tags: [test, page] #ajouter des tags en rapport avec votre atelier
 image: 350x350.png #petit image 350x350px
