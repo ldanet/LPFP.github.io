@@ -10,9 +10,9 @@
     "icon": "fa-users"
   },
   {
-    "text": "Projets",
+    "text": "Créations",
     "url": "./projects/",
-    "icon": "fa-archive"
+    "icon": "fa-diamond"
   },
   {
     "text": "Matériel",
@@ -20,13 +20,13 @@
     "icon": "fa-plug"
   },
   {
-    "text": "Blog",
+    "text": "blogZine",
     "url": "./blog",
     "icon": "fa-comments"
   },
   {
-    "text": "Infos!",
+    "text": "Contact",
     "url": "./infolettre",
-    "icon": "fa-envelope-o"
+    "icon": "fa-envelope"
   }
 ]
