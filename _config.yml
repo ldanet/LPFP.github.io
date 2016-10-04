@@ -82,7 +82,6 @@ mc:
   domain: us14
   list_id: acbb278cdd
   hash: a1e7a5338e44ee5aea22927a9
-  beamer: us14-3e372695f7-464b6b3ce1@inbound.mailchimp.com
 
 gist:
   noscript: false
