@@ -1,3 +1,20 @@
+## Comment faire une Pull Request
+
+* Forker le répertoire (dans votre espace GitHub)
+* en local, `cd votre/repertoire`
+* `git init` votre répertoire github localement
+* `git pull` pour mettre à jour localement
+* Créée une nouvelle branche (`git checkout -b ma_contribution`)
+* Commit les modifications (`git commit -am 'mon message pour le commit'`)
+* Push sur la nouvelle branche (`git push origin ma_contribution`)
+* RDV au dessus [pull request](https://github.com/LPFP/LPFP.github.io/pulls)
+* cliké sur: **New pull request** et laissez vous guider :rocket:
+
+#### Apporter une correction au site.
+Pour toute correction a faire qui nous auraient échappés, Github permet de faire des [issues](https://github.com/LPFP/LPFP.github.io/issues) ou de pouvoir inclure vos modifications avec un [merge](https://github.com/LPFP/LPFP.github.io/pulls), si vous avez préalablement "forké" le répertoire.
+
+>éviter s'il vous plait l'envoie de mail pour nous signaler certaines erreurs, passer directement par Github ou par "Slack" --merci.
+
 ## Jekyll [petit Fab-Lab de Paris](http://lepetitfablabdeparis.fr/)
 inforamtion sur [Jekyll](http://jekyllrb.com/docs/usage/).
 information sur [l'installation général](http://jekyllrb.com/docs/installation/)
@@ -70,14 +87,14 @@ dossier pour les fichiers .CSS `static/fonts/`.
 * [mFizz](http://fizzed.com/oss/font-mfizz)
 
 #### Enregister / modifier un atelier/materiel/historique
-voir dans le repertoire > fichier.json ci-dessous pour créer une nouvelle entré.
+voir dans le répertoire > fichier.json ci-dessous pour créer une nouvelle entré.
 
 * Les Ateliers sont dans `_data/projects`
 * Les évenements historique sont dans `_data/timeline`
 * La liste hardware se trouve dans `_data/hardware`
 
 #### Rédiger un poste.
-Créée un nouveau fichier dans le repertoire `_posts` avec le format suivant:
+Créée un nouveau fichier dans le répertoire `_posts` avec le format suivant:
 
 > `AAAA-MM-JJ-titre-comme-cela.md`.
 
@@ -117,7 +134,3 @@ pour ajouter un éditeur, dé commenter la section ci-dessous et remplir les inf
 #   lpfp: "" #role au petit fablab
 #   quote: ""
 ```
-
-#### Apporter une correction au site.
-Pour toute correction a faire qui nous auraient échappés, Github permet de faire des [issues](https://github.com/LPFP/LPFP.github.io/issues) ou de pouvoir inclure vos modifications avec un [merge](https://github.com/LPFP/LPFP.github.io/pulls), si vous avez préalablement "forké" le projet.
-éviter s'il vous plait l'envoie de mail pour nous signaler certaines erreurs, passer directement par Github ou par "Slack".
