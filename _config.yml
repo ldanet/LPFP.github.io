@@ -105,5 +105,5 @@ kramdown:
 gems: ['jekyll-paginate', 'jemoji', 'jekyll-gist']
 
 collections:
-  projects:
+  creations:
     output: true

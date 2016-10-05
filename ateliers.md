@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: ateliers
 title: Nos Ateliers
 permalink: /ateliers/
 ---
