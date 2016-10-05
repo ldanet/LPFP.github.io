@@ -1,7 +1,7 @@
 ---
 layout: project_collection
 title: création fini ou en cours
-permalink: /projects/
+permalink: /creations/
 ---
 
 ## Finir ce que l'on commence...
